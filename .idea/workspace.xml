@@ -1,0 +1,2540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c907713d-5a78-48b7-aa47-a2242e9f1734" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/DotDA-backend-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/action/ActionService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/action/DefaultActionService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/action/HardActionService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/battle/BattleService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/battle/PriceDistributor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/character/CharacterService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/character/DefaultCharacterService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/character/HardCharacterService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/character/calculator/AttackDamageMultiplierCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/character/calculator/CharacterAttributeCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/character/calculator/DefenseRatingMultiplierCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/character/calculator/PriceMultiplierCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/crypto/CryptoService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/crypto/HashCryptoService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/player/DefaultPlayerManagerService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/player/HashPlayerManagerService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/player/PlayerManagerService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/player/exception/AuthenticationException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/hu/zerotohero/dotda/backend/service/player/exception/RegistrationException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images/axeman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images/city.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images/goblin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images/header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images/runemaster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images/swamp.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images/troll.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/Content.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/MainControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/MainUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/MenuLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/battle/BattleControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/battle/BattleLayout$FighterLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/battle/BattleLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/character/CharacterControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/character/CharacterCreationLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/character/CharacterLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/location/LocationControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/location/LocationLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/player/login/LoginControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/images/axeman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/images/city.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/images/goblin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/images/header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/images/runemaster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/images/swamp.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/images/troll.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/DotDA-backend-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/DotDA-model-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/annotations-13.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/antlr4-runtime-4.5.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/aspectjrt-1.8.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/aspectjweaver-1.8.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/avaje-classpath-scanner-2.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/avaje-classpath-scanner-api-2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/avaje-datasource-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/avaje-datasource-api-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/avaje-dbmigration-1.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/avaje-ebeanorm-spring-7.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/commons-dbcp-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/commons-pool-1.5.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/ebean-9.5.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/ebean-annotation-1.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/flute-1.3.0.gg2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/h2-1.4.193.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/jackson-core-2.6.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/jcl-over-slf4j-1.7.22.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/jsoup-1.8.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/liquibase-core-3.5.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/lombok-1.16.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/persistence-api-2.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/postgresql-9.4-1206-jdbc42.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/sac-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/slf4j-api-1.7.22.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/snakeyaml-1.17.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/spring-aop-4.3.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/spring-beans-4.3.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/spring-context-4.3.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/spring-core-4.3.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/spring-expression-4.3.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/spring-jdbc-4.3.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/spring-tx-4.3.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/spring-web-4.3.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/vaadin-client-compiled-7.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/vaadin-sass-compiler-0.9.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/vaadin-server-7.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/vaadin-shared-7.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/lib/vaadin-themes-7.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/Content.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/MainControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/MainUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/MenuLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/battle/BattleControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/battle/BattleLayout$FighterLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/battle/BattleLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/character/CharacterControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/character/CharacterCreationLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/character/CharacterLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/location/LocationControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/location/LocationLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/player/login/LoginControllerBean.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/DotDA-model-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/attribute/Attribute.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/attribute/AttributeType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/attribute/CharacterClassAttribute.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/attribute/ItemAttribute.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/attribute/LocationTypeAttribute.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/attribute/RaceAttribute.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/base/BaseDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/base/BaseEntity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/Character.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/CharacterDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/CharacterVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/NonPlayerCharacter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/PlayerCharacter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/Race$RaceBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/Race.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/Setting.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/characterclass/CharacterClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/characterclass/NonPlayableCharacterClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/character/characterclass/PlayableCharacterClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/context/AppCtx.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/item/Item$ItemBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/item/Item.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/item/ItemDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/item/Slot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/location/Action$ActionBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/location/Action.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/location/ActionType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/location/Location$LocationBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/location/Location.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/location/LocationDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/location/LocationType$LocationTypeBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/location/LocationType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/player/Player$PlayerBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/player/Player.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/hu/zerotohero/dotda/model/player/PlayerDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/dotda.mv.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/DotDA_frontend_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/DotDA_frontend_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1d8c8568-388c-4554-b538-fcb858df5731.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1d8c8568-388c-4554-b538-fcb858df5731/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/27adc455-4797-4e2a-907d-6bb808815715.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/27adc455-4797-4e2a-907d-6bb808815715/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/520e2708-affb-4135-ad47-578cd496a5b1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/520e2708-affb-4135-ad47-578cd496a5b1/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/9b661bdd-eb45-47b7-a4f9-c678998de0e4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/9b661bdd-eb45-47b7-a4f9-c678998de0e4/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/cb76a225-4594-4248-9b3b-45c5f7a7a3e7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/cb76a225-4594-4248-9b3b-45c5f7a7a3e7/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e1e374c9-bf1f-4377-81ea-cf2cf4c23525.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e1e374c9-bf1f-4377-81ea-cf2cf4c23525/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e3a309b7-aabe-4cef-b55b-6fe38adb0150.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e3a309b7-aabe-4cef-b55b-6fe38adb0150/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_springtestdbunit_spring_test_dbunit_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_03.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_193.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_flute_flute_1_3_0_gg2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_client_compiled_7_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_sass_compiler_0_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_server_7_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_shared_7_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_themes_7_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_avaje_classpath_scanner_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_avaje_classpath_scanner_api_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_avaje_datasource_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_avaje_datasource_api_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_avaje_dbmigration_1_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebean_ebean_9_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebean_ebean_annotation_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebean_persistence_api_2_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebeanorm_avaje_ebeanorm_spring_7_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dbunit_dbunit_2_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_liquibase_liquibase_core_3_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1206_jdbc42.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/DotDA-backend.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/ActionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/DefaultActionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/HardActionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/battle/BattleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/battle/PriceDistributor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/CharacterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/DefaultCharacterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/HardCharacterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/calculator/AttackDamageMultiplierCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/calculator/CharacterAttributeCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/calculator/DefenseRatingMultiplierCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/calculator/PriceMultiplierCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/crypto/CryptoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/crypto/HashCryptoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/player/DefaultPlayerManagerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/player/HashPlayerManagerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/player/PlayerManagerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/player/exception/AuthenticationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/player/exception/RegistrationException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/resources/backend-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/src/main/resources/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/backend-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/classes/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/test-classes/backend-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-backend/target/test-classes/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/DotDA-frontend.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/ebeanServer-create-all.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/ebeanServer-drop-all.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/Content.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MainControllerBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MainUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MenuLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleControllerBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterControllerBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterCreationLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/location/LocationControllerBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/location/LocationLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/player/login/LoginControllerBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/resources/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/resources/frontend-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/classes/frontend-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/DotDA-frontend-1.0/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/classes/frontend-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/test-classes/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-frontend/target/test-classes/frontend-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/DotDA-model.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/Attribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/AttributeType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/CharacterClassAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/ItemAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/LocationTypeAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/RaceAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/base/BaseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/base/BaseEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/Character.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/CharacterDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/CharacterVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/NonPlayerCharacter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/PlayerCharacter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/Race.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/Setting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/characterclass/CharacterClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/characterclass/NonPlayableCharacterClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/characterclass/PlayableCharacterClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/context/AppCtx.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/item/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/item/ItemDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/item/Slot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/location/Action.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/location/ActionType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/location/Location.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/location/LocationDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/location/LocationType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/player/Player.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/player/PlayerDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/resources/db/changelog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/resources/db/dummydatas.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/resources/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/src/main/resources/model-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/db/changelog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/db/dummydatas.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/classes/model-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/maven-archiver/pom.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/test-classes/db/changelog.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/test-classes/db/dummydatas.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/test-classes/ebean.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA-model/target/test-classes/model-application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DotDA.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/DotDAdb.dbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/DotDAdb.dbs.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/dotda.trace.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/DotDA-backend/target/" />
+    <ignored path="$PROJECT_DIR$/DotDA-frontend/target/" />
+    <ignored path="$PROJECT_DIR$/DotDA-model/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="MenuLayout.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MenuLayout.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="159">
+                  <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BattleLayout.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleLayout.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="558">
+                  <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainControllerBean.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MainControllerBean.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="234">
+                  <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BattleControllerBean.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleControllerBean.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#558#559#0" expanded="true" />
+                    <element signature="e#608#609#0" expanded="true" />
+                    <element signature="e#652#653#0" expanded="true" />
+                    <element signature="e#731#732#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PlayableCharacterClass.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/characterclass/PlayableCharacterClass.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="BattleService.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/battle/BattleService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="328">
+                  <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+                  <folding>
+                    <element signature="e#1031#1032#0" expanded="true" />
+                    <element signature="e#1069#1070#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ActionService.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/ActionService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CharacterDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/CharacterDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dummydatas.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/resources/db/dummydatas.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jars</find>
+      <find>jar</find>
+      <find>package</find>
+      <find>ableName=&quot;</find>
+      <find>ableName=&quot;public.</find>
+      <find>import com.avaje.ebean.annotation.Transactional;</find>
+      <find>\nimport org\.springframework\.transaction\.annotation\.Transactional\;</find>
+      <find>@Transactional</find>
+      <find>discriminatorvalue</find>
+      <find>ddlGenerate</find>
+      <find>ddlrun</find>
+      <find>ddlgenerate</find>
+      <find>location_ty</find>
+      <find>Intellect</find>
+      <find>balazs.hodossy@webvalto.hu</find>
+      <find>race</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ableName=&quot;public.</replace>
+      <replace>ableName=&quot;</replace>
+      <replace>import org.springframework.transaction.annotation.Transactional;</replace>
+      <replace>bhodossy@gmail.com</replace>
+      <replace>Intelligence</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/player/PlayerDao.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/player/login/LoginControllerBean.java" />
+        <option value="dbtable:/868b51dd/27adc455-4797-4e2a-907d-6bb808815715/DOTDA.PUBLIC.DATABASECHANGELOG" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/ebeanServer-drop-all.sql" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/CharacterDao.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/battle/PriceDistributor.java" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/base/BaseDao.java" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/item/ItemDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/resources/backend-application-context.xml" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/pom.xml" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/resources/ebean.properties" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/resources/ebean.properties" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/player/Player.java" />
+        <option value="$PROJECT_DIR$/DotDA-model/pom.xml" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/ebeanServer-create-all.sql" />
+        <option value="$USER_HOME$/.m2/settings.xml" />
+        <option value="$PROJECT_DIR$/DotDA-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/base/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/resources/ebean.properties" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/resources/ebean-application-context.xml" />
+        <option value="$PROJECT_DIR$/database/script.sql" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/AttributeType.java" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/ItemAttribute.java" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/resources/model-application-context.xml" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/resources/db/changelog.xml" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MainControllerBean.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/Content.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterCreationLayout.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/player/DefaultPlayerManagerService.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MenuLayout.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MainUI.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/CharacterService.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/DefaultCharacterService.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/location/LocationLayout.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/HardCharacterService.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/calculator/CharacterAttributeCalculator.java" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/resources/db/dummydatas.xml" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/CharacterClassAttribute.java" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/characterclass/PlayableCharacterClass.java" />
+        <option value="$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/characterclass/CharacterClass.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/ActionService.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/DefaultActionService.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/HardActionService.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterControllerBean.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterLayout.java" />
+        <option value="$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/battle/BattleService.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleControllerBean.java" />
+        <option value="$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleLayout.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="location" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="character" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attribute" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="location" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="character" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="battle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="character" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="character" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DotDA-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DotDA-model" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images" />
+      <recent name="$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/DotDA-frontend/src/main/resources" />
+      <recent name="$PROJECT_DIR$/DotDA-frontend/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/DotDA-frontend/src/main/resources/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.dotda jr">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DotDA" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="dotda ci" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="dotda jr" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/DotDA-frontend" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Maven.dotda ci" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.dotda jr" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c907713d-5a78-48b7-aa47-a2242e9f1734" name="Default" comment="" />
+      <created>1482937144851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482937144851</updated>
+      <workItem from="1482937148545" duration="12796000" />
+      <workItem from="1483355775595" duration="88256000" />
+      <workItem from="1483626149904" duration="4430000" />
+      <workItem from="1483634096341" duration="33257000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="138739000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.471875" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1973466" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71666664" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47286013" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19292426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1973466" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/HardCharacterService.java</url>
+          <line>63</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/calculator/CharacterAttributeCalculator.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/Layout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/Content.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/player/DefaultPlayerManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" column="111" lean-forward="false" selection-start-line="29" selection-start-column="111" selection-end-line="29" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images/city.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/location/LocationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/Embedded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="115" column="11" lean-forward="false" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
+          <folding>
+            <element signature="e#3286#3287#0" expanded="false" />
+            <element signature="e#3318#3319#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/server/ThemeResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="57" column="18" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="57" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/ebean/9.5.1/ebean-9.5.1-sources.jar!/com/avaje/ebean/config/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="1702" column="0" lean-forward="false" selection-start-line="1702" selection-start-column="0" selection-end-line="1702" selection-end-column="0" />
+          <folding>
+            <element signature="e#47728#47729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1e374c9-bf1f-4377-81ea-cf2cf4c23525/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/DefaultCharacterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/CharacterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/player/login/LoginControllerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/resources/model-application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MainUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterCreationLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/event/MouseEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="232" column="31" lean-forward="false" selection-start-line="232" selection-start-column="31" selection-end-line="232" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/event/ItemClickEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="5115" column="46" lean-forward="true" selection-start-line="5115" selection-start-column="46" selection-end-line="5115" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/player/PlayerManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/player/HashPlayerManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/HardCharacterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="72" column="32" lean-forward="false" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/resources/db/changelog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1434">
+          <caret line="259" column="39" lean-forward="false" selection-start-line="259" selection-start-column="39" selection-end-line="259" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/character/calculator/CharacterAttributeCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/AttributeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/persistence-api/2.1.3/persistence-api-2.1.3.jar!/javax/persistence/OneToMany.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/persistence-api/2.1.3/persistence-api-2.1.3-sources.jar!/javax/persistence/OneToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="84" column="80" lean-forward="true" selection-start-line="84" selection-start-column="80" selection-end-line="84" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#4607#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/ebeanServer-create-all.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="80" column="138" lean-forward="false" selection-start-line="80" selection-start-column="138" selection-end-line="80" selection-end-column="138" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/attribute/CharacterClassAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/PlayerCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/characterclass/PlayableCharacterClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/webapp/WEB-INF/images/header.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/DefaultActionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/characterclass/CharacterClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterControllerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="89" lean-forward="false" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/location/LocationLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="63" column="35" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="63" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/resources/db/dummydatas.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/character/CharacterDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/AbstractComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="914" column="16" lean-forward="false" selection-start-line="914" selection-start-column="16" selection-end-line="914" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-model/src/main/java/hu/zerotohero/dotda/model/context/AppCtx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#683#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/HardActionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="41" column="26" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/action/ActionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-backend/src/main/java/hu/zerotohero/dotda/backend/service/battle/BattleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+          <folding>
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleControllerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MainControllerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MenuLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|DotDA-frontend</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-core:2.6.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

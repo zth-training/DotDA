@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DotDA.iml" filepath="$PROJECT_DIR$/DotDA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DotDA-backend/DotDA-backend.iml" filepath="$PROJECT_DIR$/DotDA-backend/DotDA-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DotDA-frontend/DotDA-frontend.iml" filepath="$PROJECT_DIR$/DotDA-frontend/DotDA-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DotDA-model/DotDA-model.iml" filepath="$PROJECT_DIR$/DotDA-model/DotDA-model.iml" />
+    </modules>
+  </component>
+</project>

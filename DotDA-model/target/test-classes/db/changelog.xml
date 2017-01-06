@@ -1,0 +1,262 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet id="2017.01.04_create_player_table" author="balazs.hodossy">
+        <createTable tableName="player">
+            <column name="id" type="VARCHAR(36)">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="username" type="VARCHAR(100)">
+                <constraints unique="true" nullable="false"/>
+            </column>
+            <column name="password_hash" type="VARCHAR(512)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_character_table" author="balazs.hodossy">
+        <createTable tableName="character">
+            <column name="id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name" type="VARCHAR(100)">
+                <constraints unique="true" nullable="false"/>
+            </column>
+            <column name="currency" type="INTEGER" defaultValue="0">
+                <constraints nullable="false"/>
+            </column>
+            <column name="setting" type="VARCHAR(100)"/>
+            <column name="discriminator" type="VARCHAR(1)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="character_class_id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="player_id" type="VARCHAR(36)"/>
+            <column name="race_id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="location_id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_race_table" author="balazs.hodossy">
+        <createTable tableName="race">
+            <column name="id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name" type="VARCHAR(100)">
+                <constraints unique="true" nullable="false"/>
+            </column>
+            <column name="playable" type="BOOL">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_character_class_table" author="balazs.hodossy">
+        <createTable tableName="character_class">
+            <column name="id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name" type="VARCHAR(100)">
+                <constraints unique="true" nullable="false"/>
+            </column>
+            <column name="discriminator" type="VARCHAR(1)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_item_table" author="balazs.hodossy">
+        <createTable tableName="item">
+            <column name="id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="slot" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="value" type="INTEGER" defaultValue="0">
+                <constraints nullable="false"/>
+            </column>
+            <column name="equipped" type="BOOL">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_character_inventory_table" author="balazs.hodossy">
+        <createTable tableName="character_inventory">
+            <column name="character_id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="item_id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_attribute_table" author="balazs.hodossy">
+        <createTable tableName="attribute">
+            <column name="id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="type" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="discriminator" type="VARCHAR(1)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="value" type="INTEGER" defaultValue="0">
+                <constraints nullable="false"/>
+            </column>
+            <column name="item_id" type="VARCHAR(36)"/>
+            <column name="character_class_id" type="VARCHAR(36)"/>
+            <column name="race_id" type="VARCHAR(36)"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_location_table" author="balazs.hodossy">
+        <createTable tableName="location">
+            <column name="id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name" type="VARCHAR(100)">
+                <constraints unique="true" nullable="false"/>
+            </column>
+            <column name="location_type_id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_location_type_table" author="balazs.hodossy">
+        <createTable tableName="location_type">
+            <column name="id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="name" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_action_table" author="balazs.hodossy">
+        <createTable tableName="action">
+            <column name="id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="type" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="location_type_id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_attributes_to_location_types_table" author="balazs.hodossy">
+        <createTable tableName="attributes_to_location_types">
+            <column name="location_type_id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="attribute_id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_character_foreign_keys" author="balazs.hodossy">
+        <addForeignKeyConstraint baseColumnNames="character_class_id" baseTableName="character"
+                                 constraintName="characters_to_character_class_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="character_class"/>
+        <addForeignKeyConstraint baseColumnNames="player_id" baseTableName="character"
+                                 constraintName="characters_to_player_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="player"/>
+        <addForeignKeyConstraint baseColumnNames="race_id" baseTableName="character"
+                                 constraintName="characters_to_race_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="race"/>
+        <addForeignKeyConstraint baseColumnNames="location_id" baseTableName="character"
+                                 constraintName="characters_to_location_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="location"/>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_character_inventory_foreign_keys" author="balazs.hodossy">
+        <addForeignKeyConstraint baseColumnNames="item_id" baseTableName="character_inventory"
+                                 constraintName="items_to_characters_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="item"/>
+        <addForeignKeyConstraint baseColumnNames="character_id" baseTableName="character_inventory"
+                                 constraintName="characters_to_items_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="character"/>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_attribute_foreign_keys" author="balazs.hodossy">
+        <addForeignKeyConstraint baseColumnNames="item_id" baseTableName="attribute"
+                                 constraintName="attributes_to_item_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="item"/>
+        <addForeignKeyConstraint baseColumnNames="character_class_id" baseTableName="attribute"
+                                 constraintName="attributes_to_character_class_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="character_class"/>
+        <addForeignKeyConstraint baseColumnNames="race_id" baseTableName="attribute"
+                                 constraintName="attributes_to_race_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="race"/>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_locations_to_location_type_foreign_key" author="balazs.hodossy">
+        <addForeignKeyConstraint baseColumnNames="location_type_id" baseTableName="location"
+                                 constraintName="locations_to_location_type_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="location_type"/>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_actions_to_location_type_foreign_key" author="balazs.hodossy">
+        <addForeignKeyConstraint baseColumnNames="location_type_id" baseTableName="action"
+                                 constraintName="actions_to_location_type_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="location_type"/>
+    </changeSet>
+
+    <changeSet id="2017.01.04_create_attributes_to_location_types_foreign_keys" author="balazs.hodossy">
+        <addForeignKeyConstraint baseColumnNames="location_type_id" baseTableName="attributes_to_location_types"
+                                 constraintName="location_types_to_attributes_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="location_type"/>
+        <addForeignKeyConstraint baseColumnNames="attribute_id" baseTableName="attributes_to_location_types"
+                                 constraintName="attributes_to_location_types_foreign_key" deferrable="false"
+                                 initiallyDeferred="false"
+                                 onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id"
+                                 referencedTableName="attribute"/>
+    </changeSet>
+
+    <include file="db/dummydatas.xml"/>
+
+</databaseChangeLog>

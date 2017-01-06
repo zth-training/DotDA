@@ -1,0 +1,15 @@
+hu/zerotohero/dotda/frontend/ui/character/CharacterLayout.class
+hu/zerotohero/dotda/frontend/ui/MenuLayout.class
+hu/zerotohero/dotda/frontend/ui/MainControllerBean.class
+hu/zerotohero/dotda/frontend/ui/Content.class
+hu/zerotohero/dotda/frontend/ui/character/CharacterCreationLayout.class
+hu/zerotohero/dotda/frontend/ui/battle/BattleControllerBean.class
+hu/zerotohero/dotda/frontend/ui/MainUI.class
+hu/zerotohero/dotda/frontend/ui/location/LocationControllerBean.class
+hu/zerotohero/dotda/frontend/ui/character/CharacterControllerBean.class
+hu/zerotohero/dotda/frontend/ui/battle/BattleLayout.class
+hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout$1.class
+hu/zerotohero/dotda/frontend/ui/player/login/LoginControllerBean.class
+hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout.class
+hu/zerotohero/dotda/frontend/ui/battle/BattleLayout$FighterLayout.class
+hu/zerotohero/dotda/frontend/ui/location/LocationLayout.class

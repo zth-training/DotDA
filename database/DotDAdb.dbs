@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="DotDA" id="Project_10f010df" template="Default" database="PostgreSQL" >
+	<schema name="dotda" schemaname="dotda" >
+		<table name="action" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="type" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="location_type_id" type="varchar" length="36" jt="12" mandatory="y" />
+			<index name="pk_action" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<index name="idx_action" unique="NORMAL" >
+				<column name="location_type_id" />
+			</index>
+			<fk name="fk_actions_to_location_type" to_schema="dotda" to_table="location_type" >
+				<fk_column name="location_type_id" pk="id" />
+			</fk>
+		</table>
+		<table name="attribute" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="type" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="discriminator" type="char" length="1" jt="1" mandatory="y" />
+			<column name="value" type="integer" jt="4" mandatory="y" />
+			<column name="item_id" type="varchar" length="36" jt="12" />
+			<column name="character_class_id" type="varchar" length="36" jt="12" />
+			<column name="race_id" type="varchar" length="36" jt="12" />
+			<index name="pk_attribute" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<index name="idx_attribute" unique="NORMAL" >
+				<column name="item_id" />
+			</index>
+			<index name="idx_attribute_0" unique="NORMAL" >
+				<column name="character_class_id" />
+			</index>
+			<index name="idx_attribute_1" unique="NORMAL" >
+				<column name="race_id" />
+			</index>
+			<fk name="fk_attributes_to_item" to_schema="dotda" to_table="item" >
+				<fk_column name="item_id" pk="id" />
+			</fk>
+			<fk name="fk_base_attributes_to_character_class" to_schema="dotda" to_table="character_class" >
+				<fk_column name="character_class_id" pk="id" />
+			</fk>
+			<fk name="fk_base_attributes_to_race" to_schema="dotda" to_table="race" >
+				<fk_column name="race_id" pk="id" />
+			</fk>
+		</table>
+		<table name="attributes_to_location_types" >
+			<column name="location_type_id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="attribute_id" type="varchar" length="36" jt="12" mandatory="y" />
+			<index name="pk_attributes_to_location_types" unique="NORMAL" >
+				<column name="attribute_id" />
+			</index>
+			<index name="pk_attributes_to_location_types_0" unique="NORMAL" >
+				<column name="location_type_id" />
+			</index>
+			<fk name="fk_attributes_to_location_types" to_schema="dotda" to_table="attribute" >
+				<fk_column name="attribute_id" pk="id" />
+			</fk>
+			<fk name="fk_location_types_to_attributes" to_schema="dotda" to_table="location_type" >
+				<fk_column name="location_type_id" pk="id" />
+			</fk>
+		</table>
+		<table name="character" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="currency" type="integer" length="2" jt="4" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<column name="setting" type="varchar" length="100" jt="12" />
+			<column name="discriminator" type="char" length="1" jt="1" mandatory="y" />
+			<column name="character_class_id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="player_id" type="varchar" length="36" jt="12" />
+			<column name="race_id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="location_id" type="varchar" length="36" jt="12" mandatory="y" />
+			<index name="pk_character" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<index name="idx_character" unique="NORMAL" >
+				<column name="player_id" />
+			</index>
+			<index name="idx_character_0" unique="NORMAL" >
+				<column name="character_class_id" />
+			</index>
+			<index name="idx_character_1" unique="NORMAL" >
+				<column name="race_id" />
+			</index>
+			<index name="idx_character_2" unique="NORMAL" >
+				<column name="location_id" />
+			</index>
+			<fk name="fk_characters_to_player" to_schema="dotda" to_table="player" >
+				<fk_column name="player_id" pk="id" />
+			</fk>
+			<fk name="fk_characters_to_class" to_schema="dotda" to_table="character_class" >
+				<fk_column name="character_class_id" pk="id" />
+			</fk>
+			<fk name="fk_characters_to_race" to_schema="dotda" to_table="race" >
+				<fk_column name="race_id" pk="id" />
+			</fk>
+			<fk name="fk_characters_to_location" to_schema="dotda" to_table="location" >
+				<fk_column name="location_id" pk="id" />
+			</fk>
+		</table>
+		<table name="character_class" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="discriminator" type="char" length="1" jt="1" mandatory="y" />
+			<index name="pk_race" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="character_inventory" >
+			<column name="character_id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="item_id" type="varchar" length="36" jt="12" mandatory="y" />
+			<index name="idx_character_inventory" unique="NORMAL" >
+				<column name="character_id" />
+			</index>
+			<index name="idx_character_inventory_0" unique="NORMAL" >
+				<column name="item_id" />
+			</index>
+			<fk name="fk_inventory_to_character" to_schema="dotda" to_table="character" >
+				<fk_column name="character_id" pk="id" />
+			</fk>
+			<fk name="fk_items_to_inventory" to_schema="dotda" to_table="item" >
+				<fk_column name="item_id" pk="id" />
+			</fk>
+		</table>
+		<table name="item" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="slot" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="value" type="smallint" jt="5" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<column name="equipped" type="bool" jt="-7" mandatory="y" >
+				<defo>false</defo>
+			</column>
+			<index name="pk_item" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="location" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="location_type_id" type="varchar" length="36" jt="12" mandatory="y" />
+			<index name="pk_location" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<index name="idx_location" unique="NORMAL" >
+				<column name="location_type_id" />
+			</index>
+			<fk name="fk_locations_to_location_type" to_schema="dotda" to_table="location_type" >
+				<fk_column name="location_type_id" pk="id" />
+			</fk>
+		</table>
+		<table name="location_type" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="pk_typ" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="player" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="username" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="password_hash" type="varchar" length="512" jt="12" mandatory="y" />
+			<index name="pk_user" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="race" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="playable" type="bool" jt="-7" mandatory="y" >
+				<defo>false</defo>
+			</column>
+			<index name="pk_race_0" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="type" >
+			<column name="id" type="varchar" length="36" jt="12" mandatory="y" />
+			<column name="version" type="timestamp" jt="93" mandatory="y" >
+				<defo>current_timestamp</defo>
+			</column>
+			<column name="name" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="pk_type" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+	</schema>
+	<layout name="Default Layout" id="Layout_566c322" show_relation="columns" >
+		<entity schema="dotda" name="character_inventory" color="c1d8ee" x="300" y="340" />
+		<entity schema="dotda" name="attributes_to_location_types" color="c1d8ee" x="800" y="660" />
+		<entity schema="dotda" name="item" color="c1d8ee" x="600" y="340" />
+		<entity schema="dotda" name="location" color="c1d8ee" x="820" y="340" />
+		<entity schema="dotda" name="location_type" color="c1d8ee" x="1060" y="360" />
+		<entity schema="dotda" name="player" color="c1d8ee" x="100" y="100" />
+		<entity schema="dotda" name="character" color="c1d8ee" x="60" y="480" />
+		<entity schema="dotda" name="race" color="c1d8ee" x="360" y="480" />
+		<entity schema="dotda" name="attribute" color="c1d8ee" x="540" y="680" />
+		<entity schema="dotda" name="character_class" color="c1d8ee" x="320" y="720" />
+		<entity schema="dotda" name="action" color="c1d8ee" x="1120" y="520" />
+		<group name="character_descriptor" color="78ed5b" >
+			<entity schema="dotda" name="attribute" />
+			<entity schema="dotda" name="character" />
+			<entity schema="dotda" name="character_inventory" />
+			<entity schema="dotda" name="character_class" />
+			<entity schema="dotda" name="item" />
+			<entity schema="dotda" name="race" />
+		</group>
+		<group name="location_descriptor" color="89e4f5" >
+			<entity schema="dotda" name="action" />
+			<entity schema="dotda" name="attributes_to_location_types" />
+			<entity schema="dotda" name="location" />
+			<entity schema="dotda" name="location_type" />
+		</group>
+	</layout>
+</project>

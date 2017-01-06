@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DotDA-backend" />
+        <module name="DotDA-frontend" />
+        <module name="DotDA-model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DotDA" target="1.8" />
+      <module name="DotDA-backend" target="1.8" />
+      <module name="DotDA-frontend" target="1.8" />
+      <module name="DotDA-model" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

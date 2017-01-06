@@ -1,0 +1,13 @@
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/Content.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleLayout.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/location/LocationControllerBean.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterControllerBean.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/player/login/LoginLayout.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/location/LocationLayout.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterLayout.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/character/CharacterCreationLayout.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/player/login/LoginControllerBean.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/battle/BattleControllerBean.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MainUI.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MainControllerBean.java
+/home/bhodossy/DotDA/DotDA-frontend/src/main/java/hu/zerotohero/dotda/frontend/ui/MenuLayout.java

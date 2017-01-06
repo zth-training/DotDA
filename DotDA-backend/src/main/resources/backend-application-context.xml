@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="hu.zerotohero.dotda"/>
+
+    <bean id="private_key" class="java.lang.String">
+        <constructor-arg value="MIICXAIBAAKBgQCjziY6o+nh/xkVviiA6SLXEFj5kGpdPBpg42DfC4cw2wKEAmHx7fQO5zWdWEoCMD9PNYl+QoQs9OkYIH9YLmhCoxpnnloXZGq/4dI9SfupaMtfGNBOaJPn0QM1MVqigdmQN0ySNWvnN/cxEsmxMaYS5N3PA9oVaA1q0WvGa0s4DQIDAQABAoGAdRLJz++HIbcpPpkCaeA2vm84qGXHH4vtboIUolWi8hAV5DOvvTHM1Tn639JSUu4Y0Yv6EPuJbHg+gLf5TBUe/hqRFR/K9G8cXFjKgyoUlVmej1HtDZwTbqRjs4yKBJNOYnoLVvJIAE8uV8Q/SPyyjCX6ph3JnFv+S9EYzhQEsQECQQDnrgnZDqe8xZk/jEwx/6NBxv0zB4eY7r/xWI8FCkjHF8EyoI/u1BfZUxEtReVwI7DDjauk7l+Cp+01EVIaizkVAkEAtQAb6yib+qCsF87GLQ976LvXHf0SfXCKsHnxEd/jV2bJ8aoJMnE7XukrYbG4c7/8HuoyXZEapc7omuKc/tdRGQJASP08nwSN9dvu7uVdb/cQ0P1G8deycYzuLbPvwu+9g/PI6xFIpz5skQwpgjDeGtkzrDgq1lg/AOO0yJ4/Vpt8DQJBAIsHfmpvUwB8kjPnXEoYbrEiN+aNEbrQy3cq84UrWFE2X0AFv/LDDzukFvJ/tJMUkPCeK/m7D6D1Aa6XCsilU2ECQHx/v3znF7c5iXShzJte/mIE9zJlLZRGQ4hOI20zTGXtWZbgv8mY5ZHIjDiAkJFztcBI9el2ijdNFERvvW2XiIY="/>
+    </bean>
+
+    <bean id="public_key" class="java.lang.String">
+        <constructor-arg value="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKxuyhyU9j5A0j6W8naEPoqLvP0ODy9Zst6xjTLGk1lV4S5U3JwsR7zwdLlue+/XyddpO/IA+5apaOelEeOcPxsCAwEAAQ=="/>
+    </bean>
+
+</beans>
